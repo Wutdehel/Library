@@ -1,0 +1,148 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 10px;
+    height: 100vh;
+    margin: -20px 0px 50px;
+    padding: 10px;
+
+}
+
+.container {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25) , 0 10px rgba(0, 0 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 522px;
+    
+    
+
+}
+
+.card-con {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    height: 480px;
+    background-color: wheat;
+    
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    height: 460px;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex: 1;
+    height: 522px;
+    justify-content: center;
+    align-items: center;
+    color: #1B2430;
+}
+
+.left-con {
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    line-height: 22px;
+
+}
+
+.left-con img {
+    width: 30%;
+}
+
+.left p {
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.right-con {
+    width: 70%;
+    height: 80%;
+    text-align: center;
+
+}
+
+.right-con img {
+    width: 40%;
+}
+
+input {
+   background-color: rgb(179, 179, 179); 
+   border: none;
+   padding: 12px 15px;
+   margin: 8px 0 ;
+   width: 100%;
+   font-size: 0.8rem;
+   text-decoration: none;
+}
+
+input:focus{
+    outline: 1px solid whitesmoke;
+}
+
+button {
+    border-radius: 20px;
+    border:1px solid rgb(179, 179, 179);
+    background-color: rgb(179, 179, 179);
+    color: #1B2430;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: tranform 80ms ease-out;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+
+.right a {
+    text-decoration: none;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .left {
+        display: none;
+    }
+
+    .lg-view {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sm-view {
+        display: none;
+    }
+}

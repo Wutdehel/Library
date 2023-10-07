@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/sa.jpg);
+    background-size: 100% 100%;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu {
+    font-family: tahoma;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.menu img {
+    width: 5%;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 5px;
+    padding-right: 150px;
+    background: none;
+    display: block;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: wheat;
+    
+}
+
+.menu ul li a:hover{
+    display: block;
+    color: whitesmoke;
+    background-color: antiquewhite;
+    box-shadow: inset 0px 0px 5px antiquewhite;
+    cursor: pointer;
+}
+
+.menu ul li .dropdown {
+    display: none;
+}
+
+.menu ul li:hover .dropdown {
+    display: block;
+    background: white;
+    position: absolute; 
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li {
+    display: block;
+}
+
+.menu ul li:hover .dropdown li a {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.menu ul li:hover .dropdown li a:hover {
+    background-color: antiquewhite;
+    box-shadow: inset 0px 0px 5px antiquewhite;
+    cursor: pointer;
+}
+
+.container {
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25) , 0 10px rgba(0, 0 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 522px;
+    padding-top: 100px;
+    padding-left: 500px;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.card-con {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    height: 480px;
+    background-color: whitesmoke;
+    
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    height: 522px;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    color: #1B2430;
+    border-radius: 10px;
+}
+
+.left {
+    display: flex;
+    flex: 1;
+    height: 522px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #1B2430;
+    border-radius: 10px;
+}
+
+.left-con {
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    line-height: 22px;
+
+}
+
+.left-con img {
+    width: 30%;
+}
+
+.left p {
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.left a {
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1B2430;
+}
+
+.left a:hover {
+    background: bisque;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 3px 3px 3px 3px;
+    transition: .3s ease-out;
+}
+
+.right-con {
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    padding-top: 160px;
+
+}
+
+.right a{
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1B2430;
+}
+
+.right-con img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.right a:hover {
+    background: whitesmoke;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 3px 3px 3px 3px;
+    transition: .3s ease-out;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
